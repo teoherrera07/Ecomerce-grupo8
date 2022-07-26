@@ -4,7 +4,9 @@ Proyecto Final e-commerce Grupo 8 Digital House
 # Global-Talent
 
 Definición de la temática -- Descripción de proyecto.
-Se trata de un ecommerce donde se busca crear una plataforma donde los usuarios busquen ofrecer sus servicios como técnico/Profesional independiente, y usuarios/clientes puedan acceder a la búsqueda de los mismos, teniendo como ventaja diversidad de servicios, y teniendo retroalimentación de la calidad del servicio por parte de los clientes, creando así una reputación para aumentar los pedidos de servicio, y complementar con la verificación de los conocimientos de los prestadores de servicios, con pruebas como títulos, certificados, y diplomas.
+Se trata de un ecommerce donde se busca crear una plataforma donde los usuarios busquen ofrecer sus servicios como técnico/Profesional/habilidad independiente, y usuarios/clientes puedan acceder a la búsqueda de los mismos, teniendo como ventaja diversidad de servicios, y teniendo retroalimentación de la calidad del servicio por parte de los clientes, creando así una reputación para aumentar los pedidos de servicio, y complementar con la verificación de los conocimientos de los prestadores de servicios, con pruebas como títulos, certificados, y diplomas. Esto sirve para que cualquier persona pueda ofrecer su servicio sin la necesidad de trabajar para alguien y consiga clientes que adquieran sus servicios.
+
+Nuestro publico objetvio es toda aquella persona que tenga una habilidad/servicio/profesion que quiera ofrecer y conseguir mayores clientes. De modo que nuestro publico son 2, uno es aquel que necesite un servicio y tenga variedad de personas, habilidades y trabajos para comparar y ver el mejor talento. Por otro lado tenemos a aquellos que quieren ofrecer su servicio y ganar dinero trabajando a su tiempo y a para ellos mismos.
 
 ## Integrantes del equipo.
 
