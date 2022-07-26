@@ -8,6 +8,10 @@ Se trata de un ecommerce donde se busca crear una plataforma donde los usuarios 
 
 Nuestro publico objetvio es toda aquella persona que tenga una habilidad/servicio/profesion que quiera ofrecer y conseguir mayores clientes. De modo que nuestro publico son 2, uno es aquel que necesite un servicio y tenga variedad de personas, habilidades y trabajos para comparar y ver el mejor talento. Por otro lado tenemos a aquellos que quieren ofrecer su servicio y ganar dinero trabajando a su tiempo y a para ellos mismos.
 
+Definimos el nombre de "Global-Talent" debido a que queremos que cualquiera que tenga una habilidad pueda cobrar por ello y que reconozcan su trabajo mas personas. Por lo que cualquiera puede valorar el trabajo de uno y asi ganarse una reputacion en este mundo de talentos para escalar y llegar a lo mas alto. Los colores que elegimos son blanco, negro, azul y gris. El blanco y el negro lo elegimos por su minimalismo y su toque profesional y elegante a la pagina, el azul representa la relajacion buscamos esto debido a que queremos que cuando alguien tenga un problema y requiera de global talent para resolverlo, pueda hacerlo de una manera tranquila. Y por ultimo elegimos el gris por su tono neutro y calidad para la combinacion del profesionalismo.
+
+El logo lo decidimos de esta manera para representar a que cualquiera pueda presentarse al mundo, que lo conozcan y le den su valor por el talento que tiene. Para demostrar que ninguna barrera pueda limitar el talento de una persona.
+
 ## Integrantes del equipo.
 
 ### Mateo Herrera
