@@ -1,6 +1,8 @@
 # grupo_08-proyecto_ecommerce
 Proyecto Final e-commerce Grupo 8 Digital House
 
+# Global-Talent
+
 Definición de la temática -- Descripción de proyecto.
 Se trata de un ecommerce donde se busca crear una plataforma donde los usuarios busquen ofrecer sus servicios como técnico/Profesional independiente, y usuarios/clientes puedan acceder a la búsqueda de los mismos, teniendo como ventaja diversidad de servicios, y teniendo retroalimentación de la calidad del servicio por parte de los clientes, creando así una reputación para aumentar los pedidos de servicio, y complementar con la verificación de los conocimientos de los prestadores de servicios, con pruebas como títulos, certificados, y diplomas.
 
