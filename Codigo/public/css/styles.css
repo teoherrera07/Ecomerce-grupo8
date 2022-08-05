@@ -52,6 +52,8 @@
     padding: 10px;
     background-color: dodgerblue;
     border-radius: 40px;
+    position: relative;
+    right: 8px;
 }
 
 #person {
@@ -77,3 +79,4 @@
 
 
 }
+
