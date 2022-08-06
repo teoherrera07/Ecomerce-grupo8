@@ -80,3 +80,107 @@
 
 }
 
+body{
+    background-image: url("https://img.freepik.com/vector-premium/ilustracion-vector-fondo-papel-tapiz-degradado-azul-blanco-gris-turquesa-fondo_172010-1295.jpg");
+    background-size: cover;
+
+
+}
+
+main h2 {  
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#box-destacados {
+    width: 98vw;
+    height: 300;
+    display: flex;
+    justify-content: space-around ;
+    
+}
+
+#trabajo1 {
+    width: 20vw;
+}
+#trabajo2 {
+    width: 20vw;
+}
+#trabajo3 {
+    width: 20vw;
+}
+.categorias-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.categorias-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+div.categorias-1 i {
+    font-size: 60px;
+    text-align: center;
+}
+div.categorias-2 i {
+    font-size: 60px;
+    text-align: center;
+}
+div.categorias-1 h3 {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+div.categorias-2 h3 {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    border-top: solid 2px black;
+}
+
+footer h2 {  
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-box {
+    display: flex;
+    border: solid 2px red;
+}
+
+.social-box-1 {
+    border: solid 2px green;
+}
+
+div.social-box-1 div.twitter i{
+    color:cyan;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+div.social-box-1 div.twitter a{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+div.social-box-1 div.instagram i{
+    width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	text-align: center;
+	background-image: linear-gradient(155deg, #4C57A2 8%, #87439A 50%, #e02870 85%);
+    color : white;
+    font-size: 25px;
+    padding-top: 2px;
+}
+div.social-box-1 div.instagram a{
+    font-size: 20px;
+    margin-left: 20px;
+}
