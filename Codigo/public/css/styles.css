@@ -242,3 +242,8 @@ main h2{
 .destacados {
    width: 150px; 
 }
+
+.tituloRegistro{
+    text-align: center;
+    font-size: 50px;
+}

@@ -12,7 +12,7 @@ app.get('/', (req,res)=>{
 });
 
 app.get('/register', (req, res)=>{
-    res.sendFile(__dirname + '/views/Register.html');
+    res.sendFile(__dirname + '/views/register.html');
 });
 
 app.get('/productDetail', (req, res)=>{
