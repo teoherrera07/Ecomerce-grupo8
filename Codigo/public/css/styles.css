@@ -152,11 +152,10 @@ footer h2 {
 
 .footer-box {
     display: flex;
-    border: solid 2px red;
+    margin-top: 100px;
 }
 
 .social-box-1 {
-    border: solid 2px green;
 }
 
 div.social-box-1 div.twitter i{
