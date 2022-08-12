@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Fredoka:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Fredoka:wght@500&family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/logIn.css">
     <title>Home</title>
 </head>
 <body>
@@ -34,7 +34,31 @@
         </div>
     </header>
     <main>
-       
+       <h2>Inicio de sesión</h2>
+       <form action="./logIn.html" method="post">
+        <br>
+        <div class="nom-usuario">
+            <br>
+            <input type="text" name="nombre"  required>
+            <label class="titulo" >Usuario</label>
+        </div>
+        <br>
+        <div class="pass-usuario">
+            
+            <input type="text" name="contraseña"  required>
+            <label class="titulo" >Contraseña</label>
+        </div>
+        <div class="recuerdame">
+            <br>
+            <input type="checkbox" name="recuerdame" id="record">
+            <label class="titulo" >Recuerdame</label><br>
+           <button type="submit" id="enviar">Ingresar</button>
+
+        </div>
+        
+       </form>
+
+
     </main>
     <footer>
         <div class="footer-box">
