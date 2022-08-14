@@ -31,6 +31,6 @@ Menos incumplimiento en los encuentros virtuales
 ## Plan de acción 
  Utilizar los espacios en semana de Lunes, miercoles, viernes para llevar a cabo las daily meeting para autoevaluación, coordinación, aclarar dudas y comunicación en el grupo. 
 
- Dsiponer de un día de los fines de semana para hacer análisis del avance de la app y el desempeño del trabajo en equipo. 
+ Disponer de un día de los fines de semana para hacer análisis del avance de la app y el desempeño del trabajo en equipo. 
 
-planeación conciente del contenido del HTML, para preveer el uso de  "cajas" (flexbox)  
+Planeación conciente del contenido del HTML, para preveer el uso de  "cajas" (flexbox)  
