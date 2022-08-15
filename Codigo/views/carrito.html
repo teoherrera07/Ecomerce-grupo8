@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Fredoka:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Fredoka:wght@500&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    <title>Carrito</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <div class = "menuHamburgesa">
+                <i id="burger" class="fas fa-bars"></i>
+            </div>
+            <div class = "iconoLupa">
+                <i id="lupa" class="fas fa-search"></i>
+            </div>
+            <div>
+                <img id="logo" src="images/logo.jpg" alt="Logo">
+            </div>
+            <div class="perfilUsuario">
+                <div id="person">
+                    Usuario
+                </div>
+                <div>
+                    <i id="user" class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+         
+        <form action="/register" method="post" class="formulario">
+            <br>
+        
+            <h1 class="tituloRegistro">Sign-up</h1>
+        
+            <div class="control-formulario">
+                <br>
+                <label class="titulo" >Nombre</label>
+                <input type="text" name="nombre"  required>
+            </div>
+            <br>
+
+            <div class="control-formulario">
+                
+                <label class="titulo" >Apellido</label>
+                <input type="text" name="apellido"  required>
+            </div>
+            <br>
+
+            <div class="control-formulario">
+                <label class="titulo" >Nombre de usuari@</label>
+                <input type="text" name="nombre-de-usuari@"  required>
+            </div>
+            <br>
+
+            <div class="control-formulario">
+                <label class="titulo">Domicilio</label>
+                <input type="text" name="domicilio" required>
+            </div>
+            <br>
+
+            <div class="control-formulario">
+                <label class="titulo">Perfil del Usuario</label>
+                <input type="file" name="perfilDelUsuario">
+            </div>
+            <br>
+
+            <div class="control-formulario">
+        
+                <label class="titulo" >Contraseña</label>
+                <input type="password" name="contraseña">
+            </div>
+
+            <br>
+
+            <div class="control-formulario">
+            
+        
+                <label class="titulo">Confirmar contraseña</label>
+                <input type="password" name="confirmar-contraseña">
+        
+            </div>
+            <br>
+            <button type="submit" class="boton-formulario1">Terminar y enviar</button>
+
+        </form>
+    </main>
+    <footer>
+        <div class="footer-box">
+            <div class="paginas">
+                <h2>Páginas</h2>
+                <a href="./">Principal</a><br>
+                <a href="./register.html">Register</a><br>
+                <a href="./logIn.html">LogIn</a><br>
+            </div>
+                <div class="social-box-1">
+                    <div class="twitter">
+                        <a href="">Twitter</a><i class="fab fa-twitter"></i>
+                    </div>
+                    <br>
+                    <div class="instagram">
+                        <a href="">Instagram</a><i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="social-box-2">
+                    <div class="facebook">
+                        <a href="">Facebook</a><i class="fab fa-facebook-f"></i>
+                    </div>
+                    <br>
+                    <div class="youtube">
+                        <a href="">Youtube</a><i class="fab fa-youtube"></i>
+                    </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
