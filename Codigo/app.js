@@ -15,11 +15,11 @@ app.get('/register.html', (req, res)=>{
     res.sendFile(__dirname + '/views/register.html');
 });
 
-app.get('/productDetail.html', (req, res)=>{
+app.get('/serviceDetail.html', (req, res)=>{
     res.sendFile(__dirname + '/views/productDetail.html');
 });
 
-app.get('/productCart.htmal', (req, res)=>{
+app.get('/carrito.htmal', (req, res)=>{
     res.sendFile(__dirname + '/views/productCart.html');
 });
 
