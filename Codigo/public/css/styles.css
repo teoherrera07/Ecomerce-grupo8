@@ -87,12 +87,26 @@ body{
 
 }
 
-.fa-user{
+.formulario i{
     font-size: 50px;
     text-align: center;
-    border-radius: 50%; 
-    padding: 10px;
-    
+    border-radius: 50%;
+    border: solid 3px black;
+    padding: 5px; 
+    margin-top: 15px;
+}
+
+.tituloRegistro{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: -60px;
+}
+
+.formulario input{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 main h2 {  
@@ -146,6 +160,15 @@ div.categorias-1 h3 {
 div.categorias-2 h3 {
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton-formulario1{
+   margin-left: 30vw;
+}
+
+.boton-formulario1:hover{
+    background-color: rgb(39, 20, 107);
+    color: white;    
 }
 
 footer {
