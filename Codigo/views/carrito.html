@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Fredoka:wght@500&family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/carrito.css">
     <title>Carrito</title>
 </head>
 <body>
@@ -34,63 +35,64 @@
         </div>
     </header>
     <main>
-         
-        <form action="/register" method="post" class="formulario">
-            <br>
-        
-            <h1 class="tituloRegistro">Sign-up</h1>
-        
-            <div class="control-formulario">
-                <br>
-                <label class="titulo" >Nombre</label>
-                <input type="text" name="nombre"  required>
+
+        <h1 class="tituloCarrito">Servicios adquiridos</h1>
+        <div class="contenedorServicios">
+            <div class="servicios">
+                <div class="contenedorImagen">
+                    <img class="imagenServicio" src="images/foto-perfil-servicio.jpg">
+                </div>
+
+                <div class="datosServicio">
+                    <div>
+                        <h4>Humberto Gomez <i id="iconoServicio" class="fas fa-info-circle"></i></h4>
+                        
+                    </div>
+                    <div>
+                        <p>Plomeria: Cambio de tuberia de la casa</p>
+                    </div>
+                </div>
+
+                <div class="precioServicio">
+
+                    <div class="chat">
+                        <i class="far fa-comments"></i>
+                    </div>
+                    <div class="precio">
+                        <h4>$40</h4>
+                    </div>
+                </div>
             </div>
-            <br>
-
-            <div class="control-formulario">
-                
-                <label class="titulo" >Apellido</label>
-                <input type="text" name="apellido"  required>
-            </div>
-            <br>
-
-            <div class="control-formulario">
-                <label class="titulo" >Nombre de usuari@</label>
-                <input type="text" name="nombre-de-usuari@"  required>
-            </div>
-            <br>
-
-            <div class="control-formulario">
-                <label class="titulo">Domicilio</label>
-                <input type="text" name="domicilio" required>
-            </div>
-            <br>
-
-            <div class="control-formulario">
-                <label class="titulo">Perfil del Usuario</label>
-                <input type="file" name="perfilDelUsuario">
-            </div>
-            <br>
-
-            <div class="control-formulario">
-        
-                <label class="titulo" >Contraseña</label>
-                <input type="password" name="contraseña">
-            </div>
-
-            <br>
-
-            <div class="control-formulario">
             
-        
-                <label class="titulo">Confirmar contraseña</label>
-                <input type="password" name="confirmar-contraseña">
-        
-            </div>
-            <br>
-            <button type="submit" class="boton-formulario1">Terminar y enviar</button>
+            <div class="servicios">
+                <div class="contenedorImagen">
+                    <img class="imagenServicio" src="">
+                </div>
 
-        </form>
+                <div class="datosServicio">
+                    <div>
+                        <h4><i id="iconoServicio" class="fas fa-info-circle"></i></h4>
+                        
+                    </div>
+                    <div>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="precioServicio">
+
+                    <div class="chat">
+                        <i class="far fa-comments"></i>
+                    </div>
+                    <div class="precio">
+                        <h4></h4>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <br>
     </main>
     <footer>
         <div class="footer-box">
