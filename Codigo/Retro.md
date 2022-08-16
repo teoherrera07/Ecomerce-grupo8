@@ -42,8 +42,5 @@
 
  Disponer de un día de los fines de semana para hacer análisis del avance de la app y el desempeño del trabajo en equipo. 
 
-<<<<<<< HEAD
 planeación conciente del contenido del HTML, para preveer el uso de  "cajas" (flexbox).  
-=======
-Planeación conciente del contenido del HTML, para preveer el uso de  "cajas" (flexbox)  
->>>>>>> 07b5d91c2dc38659aa35c474d3786b6f2d940200
+
