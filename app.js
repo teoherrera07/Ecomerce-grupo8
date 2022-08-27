@@ -1,29 +1,36 @@
 const express = require('express');
 const app = express();
-app.use(express.static('public'));
+const path = require('path');
+
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+
+
+app.get('/', (req,res)=>{
+    res.render('index');
+});
+
+app.get('/register', (req, res)=>{
+    res.render('usuarios/register');
+});
+
+app.get('/serviceDetail', (req, res)=>{
+    res.render('service/serviceDetail');
+});
+
+app.get('/carrito', (req, res)=>{
+    res.render('service/carrito');
+});
+
+app.get('/logIn', (req, res)=>{
+    res.render('usuarios/login');
+});
+
 
 
 app.listen(3000, ()=>{
-    console.log('Servidor funcionando');
+  console.log('Servidor funcionando');
 });
-
-app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/index.html');
-});
-
-app.get('/register.html', (req, res)=>{
-    res.sendFile(__dirname + '/views/register.html');
-});
-
-app.get('/serviceDetail.html', (req, res)=>{
-    res.sendFile(__dirname + '/views/serviceDetail.html');
-});
-
-app.get('/carrito.html', (req, res)=>{
-    res.sendFile(__dirname + '/views/carrito.html');
-});
-
-app.get('/login.html', (req, res)=>{
-    res.sendFile(__dirname + '/views/login.html');
-});
-

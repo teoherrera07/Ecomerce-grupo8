@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('../partials/head') %>
+    <link rel="stylesheet" href="css/logIn.css">
+
+<body>
+
+    <%- include('../partials/header') %>
+
+    <main>
+       <h2>Inicio de sesión</h2>
+       <form action="./logIn.html" method="post">
+        <br>
+        <i class="fas fa-user"></i>
+        <div class="nom-usuario">
+            <br>
+            <input class="espacio" type="text" name="nombre"  required>
+            <label class="titulo" >Usuario</label>
+        </div>
+        <br>
+        <div class="pass-usuario">
+            
+            <input class="espacio" type="text" name="contraseña"  required>
+            <label class="titulo" >Contraseña</label>
+        </div>
+        <br>
+        <div class="olvidaste">
+            <a href="#">¿olvidaste tu contraseña?</a>
+        </div>
+        <div class="recuerdame">
+            <br>
+            <input type="checkbox" name="recuerdame" id="record">
+            <label class="titulo" >Recuerdame</label><br>
+           <button type="submit" id="enviar">Ingresar</button>
+
+        </div>
+        
+       </form>
+
+
+    </main>
+
+    <%- include('../partials/footer') %>
+</body>
+</html>
