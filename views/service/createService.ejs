@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('../partials/head') %> 
+    <link rel="stylesheet" href="css/createService.css">
+
+<body>
+    <%- include('../partials/header') %> 
+
+    <h2>Creacion de servicio</h2>
+    
+    <form action="/createService" method="POST">
+
+        <div>
+            <label for="servicio">Nombre del servicio</label><br>
+            <input type="text" name="servicio" id="servicio" placeholder="Nombre del servicio">
+        </div>
+        <div>
+            <label for="prestador">Prestador de servicio</label><br>
+            <input type="text" name="prestador" id="prestador" placeholder="Prestador del servicio">
+        </div>
+        <div>
+            <label for="descripcion">Descripcion</label><br>
+            <input type="text" name="descripcion" placeholder="Descripcion" id="descripcion">
+        </div>
+        <div>
+            <label for="muestras">portafolio de trabajo</label><br>
+            <input type="file" name="muestras" id="muestras">
+        </div>
+        <div>
+            <label for="servicetype">Tipo de servicio</label><br>
+            <select name="servicetype" id="servicetype" required>
+                <option value=""></option>
+            </select>
+        </div>
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+    <%- include('../partials/footer') %> 
+</body>
+
+</html>

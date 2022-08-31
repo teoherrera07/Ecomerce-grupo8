@@ -29,6 +29,10 @@ app.get('/logIn', (req, res)=>{
     res.render('usuarios/login');
 });
 
+app.get('/createService', (req, res)=>{
+    res.render('service/createService');
+});
+
 
 
 app.listen(3000, ()=>{
